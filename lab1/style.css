@@ -13,7 +13,6 @@ main{
 .box1{
     flex:2;
     padding: 20px 20px 20px 15px;
-    background-color: #e06868;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,7 +22,6 @@ main{
 .box2{
     flex:3;
     padding: 20px;
-    background-color: #e40d0d;
     display: flex;
     justify-content: center;
     align-items: center;
