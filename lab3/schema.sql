@@ -82,9 +82,9 @@ CREATE TABLE gpa_records (
 
 -- USERS
 INSERT INTO users (name, email, password, role) VALUES
-('Admin User', 'admin@test.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin'),
-('Dr. Smith', 'prof@test.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'professor'),
-('Alice', 'student@test.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'student');
+('Admin User', 'admin@test.com', '$2y$12$8XyOByme.tFdsy2/p1AQL.MQ4Uyn43RPHpExu6jvClm3eHzz00tlm', 'admin'),
+('Dr. Smith', 'prof@test.com', '$2y$12$8XyOByme.tFdsy2/p1AQL.MQ4Uyn43RPHpExu6jvClm3eHzz00tlm', 'professor'),
+('Alice', 'student@test.com', '$2y$12$8XyOByme.tFdsy2/p1AQL.MQ4Uyn43RPHpExu6jvClm3eHzz00tlm', 'student');
 
 -- SEMESTERS
 INSERT INTO semesters (label, academic_year, is_active) VALUES
