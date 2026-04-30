@@ -14,8 +14,8 @@
                         <h4 class="mb-0">Grade Manager Login</h4>
                     </div>
                     <div class="card-body">
-                        <?php if (!empty($error)): ?>
-                            <div class="alert alert-danger"><?= htmlspecialchars($error) ?></div>
+                        <?php if (isset($error)): ?>
+                            <div class="alert alert-danger"><?= e($error) ?></div>
                         <?php endif; ?>
                         
                         <form method="post">
@@ -32,8 +32,8 @@
                         
                         <hr>
                         <div class="small text-muted">
-                            <p class="mb-1"><strong>Demo Accounts:</strong></p>
-                            <ul class="small">
+                            <p>Demo Accounts:</p>
+                            <ul>
                                 <li>admin@test.com / password123</li>
                                 <li>prof@test.com / password123</li>
                                 <li>student@test.com / password123</li>
@@ -45,4 +45,4 @@
         </div>
     </div>
 </body>
-</html>
+</html>dd

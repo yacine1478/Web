@@ -72,4 +72,4 @@ class Assignment {
         $stmt->execute([':course_id' => $courseId, ':semester_id' => $semesterId]);
         return (bool) $stmt->fetch();
     }
-}   
+}

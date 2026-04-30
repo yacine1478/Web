@@ -8,8 +8,6 @@ class AuthController {
     }
     
     public function login() {
-        $error = '';
-        
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $email = trim($_POST['email'] ?? '');
             $password = $_POST['password'] ?? '';
